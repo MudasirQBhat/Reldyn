@@ -1,4 +1,3 @@
-import React from "react";
 import ServiceItems from "./ServiceItems";
 
 const Services = () => {

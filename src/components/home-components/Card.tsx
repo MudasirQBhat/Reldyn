@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = (props) => {
       <p className="font-inter text-lg text-color-blackblue p-4 pt-1 flex-grow">
         {props.serviceDescription}
       </p>
-      <div className="absolute bottom-4 w-full flex justify-between items-center">
+      <div className="absolute bottom-10 w-full flex justify-between items-center">
         <div className="p-4">
           <button className="py-2 px-6 rounded-full border-2 border-primary-color text-primary-color font-inter text-base font-600">
             Know More
