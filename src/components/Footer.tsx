@@ -8,10 +8,10 @@ const Footer = () => {
       <div data-aos="slide-up">
         <ContactComponent />
         <div className=" items-end  bg-color-purple  pb-12 pt-80">
-          <div className="flex flex-col lg:flex-row w-[90%] mx-auto lg:justify-between lg:mt-12 space-y-10 lg:space-y-0">
+          <div className="flex flex-col lg:flex-row w-full px-6 lg:px-20 mx-auto lg:justify-between lg:mt-12 space-y-10 lg:space-y-0">
             <div
               // data-aos="slide-right"
-              className="font-inter space-y-1 lg:space-y-4 w-[40%]"
+              className="font-inter space-y-1 lg:space-y-4 w-2/5"
             >
               <div className="">
                 <Link to="#">
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             <div
               // data-aos="slide-left"
-              className="flex flex-col lg:flex-row lg:justify-around gap-4 lg:gap-10 w-[50%] "
+              className="flex flex-col lg:flex-row lg:justify-around gap-4 lg:gap-10 w-1/2 "
             >
               <div className="lg:w-1/5 font-inter space-y-4 lg:space-y-8 ">
                 <div>

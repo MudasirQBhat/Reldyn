@@ -45,6 +45,7 @@ export default {
         black: 900,
         "font-600": 600,
         "font-700": 700,
+        "font-400": 400,
       },
       width: {
         136: "48.5rem",

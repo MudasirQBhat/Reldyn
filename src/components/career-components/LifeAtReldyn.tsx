@@ -22,7 +22,7 @@ const LifeAtReldyn = () => {
 
   return (
     <>
-      <div className="w-[90%] mx-auto">
+      <div className="w-full px-6 lg:px-20">
         <h1 className="font-roboto text-primary-color text-2xl md:text-3xl font-black">
           #lifeatreldyn
         </h1>

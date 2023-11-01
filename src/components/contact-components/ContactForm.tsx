@@ -1,104 +1,3 @@
-// import React from "react";
-// import { useFormik } from "formik";
-
-// const OpportunitiesForm = () => {
-//   // Note that we have to initialize ALL of fields with values. These
-//   // could come from props, but since we don’t want to prefill this form,
-//   // we just use an empty string. If we don’t do this, React will yell
-//   // at us.
-//   const formik = useFormik({
-//     initialValues: {
-//       firstName: "",
-//       lastName: "",
-//       email: "",
-//       phoneNumber: "",
-//     },
-//     onSubmit: (values) => {
-//       alert(JSON.stringify(values, null, 2));
-//     },
-//   });
-//   return (
-//     <form onSubmit={formik.handleSubmit}>
-//       <div className="flex flex-col md:flex-row md:gap-8">
-//         <div className="flex flex-col md:w-1/2">
-//           <label
-//             htmlFor="firstName"
-//             className="font-roboto text-color-natural-gray mt-4"
-//           >
-//             First Name
-//           </label>
-//           <input
-//             id="firstName"
-//             name="firstName"
-//             type="text"
-//             onChange={formik.handleChange}
-//             value={formik.values.firstName}
-//             className="border-b border-color-natural-gray bg-primary-background h-14 focus:outline-none"
-//           />
-//         </div>
-
-//         <div className="flex flex-col md:w-1/2">
-//           <label
-//             htmlFor="lastName"
-//             className="font-roboto text-color-natural-gray mt-4"
-//           >
-//             Last Name
-//           </label>
-//           <input
-//             id="lastName"
-//             name="lastName"
-//             type="text"
-//             onChange={formik.handleChange}
-//             value={formik.values.lastName}
-//             className="border-b border-color-natural-gray bg-primary-background h-14 focus:outline-none"
-//           />
-//         </div>
-//       </div>
-//       <div className="flex flex-col md:flex-row md:gap-8">
-//         <div className="flex flex-col md:w-1/2">
-//           <label
-//             htmlFor="email"
-//             className="font-roboto text-color-natural-gray mt-4"
-//           >
-//             Email
-//           </label>
-//           <input
-//             id="email"
-//             name="email"
-//             type="text"
-//             onChange={formik.handleChange}
-//             value={formik.values.email}
-//             className="border-b border-color-natural-gray bg-primary-background h-14 focus:outline-none"
-//           />
-//         </div>
-
-//         <div className="flex flex-col md:w-1/2">
-//           <label
-//             htmlFor="phoneNumber"
-//             className="font-roboto text-color-natural-gray mt-4"
-//           >
-//             Phone Number
-//           </label>
-//           <input
-//             id="phoneNumber"
-//             name="phoneNumber"
-//             type="text"
-//             onChange={formik.handleChange}
-//             value={formik.values.phoneNumber}
-//             className="border-b border-color-natural-gray bg-primary-background h-14 focus:outline-none"
-//           />
-//         </div>
-//       </div>
-//       <button className="bg-primary-color text-color-white font-roboto text-sm md:text-lg px-4 py-2 rounded-full mt-10">
-//         Subscribe
-//       </button>
-//     </form>
-//   );
-// };
-
-// export default OpportunitiesForm;
-
-import React from "react";
 import { useFormik } from "formik";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -122,7 +21,7 @@ const ContactForm = () => {
       onSubmit={formik.handleSubmit}
       className="bg-color-white px-8 py-8 rounded-3xl h-full"
     >
-      <div className="">
+      <div>
         <h1 className="font-roboto text-color-purple font-black text-2xl md:text-3xl">
           Send us a message
         </h1>
@@ -141,7 +40,7 @@ const ContactForm = () => {
             type="text"
             onChange={formik.handleChange}
             value={formik.values.firstName}
-            className="border-b border-color-natural-gray  h-14 focus:outline-none"
+            className="border-b border-color-natural-gray h-14 focus:outline-none"
           />
         </div>
 
@@ -158,7 +57,7 @@ const ContactForm = () => {
             type="text"
             onChange={formik.handleChange}
             value={formik.values.lastName}
-            className="border-b border-color-natural-gray  h-14 focus:outline-none"
+            className="border-b border-color-natural-gray h-14 focus:outline-none"
           />
         </div>
       </div>
@@ -177,7 +76,7 @@ const ContactForm = () => {
             type="text"
             onChange={formik.handleChange}
             value={formik.values.email}
-            className="border-b border-color-natural-gray  h-14 focus:outline-none"
+            className="border-b border-color-natural-gray h-14 focus:outline-none"
           />
         </div>
 
@@ -218,7 +117,7 @@ const ContactForm = () => {
               htmlFor="subject1"
               className="font-roboto text-color-purple font-light ml-2 mr-4"
             >
-              General Inquiry
+              Subject 1
             </label>
           </div>
 
@@ -236,7 +135,7 @@ const ContactForm = () => {
               htmlFor="subject2"
               className="font-roboto text-color-purple font-light ml-2 mr-4"
             >
-              General Inquiry
+              Subject 2
             </label>
           </div>
 
@@ -254,7 +153,7 @@ const ContactForm = () => {
               htmlFor="subject3"
               className="font-roboto text-color-purple font-light ml-2 mr-4"
             >
-              General Inquiry
+              Subject 3
             </label>
           </div>
 
@@ -272,34 +171,38 @@ const ContactForm = () => {
               htmlFor="subject4"
               className="font-roboto text-color-purple font-light ml-2"
             >
-              General Inquiry
+              Subject 4
             </label>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col md:w-full mt-4">
+      <div className="flex flex-col md:w-full">
         <label
           htmlFor="message"
           className="font-roboto text-color-natural-gray mt-4"
         >
           Message
         </label>
-        <input
+        <textarea
           id="message"
           name="message"
-          type="text"
           onChange={formik.handleChange}
           value={formik.values.message}
           placeholder="Write your message..."
-          className="border-b border-color-natural-gray  h-14 focus:outline-none"
+          className="border-b border-color-natural-gray h-14 focus:outline-none"
         />
       </div>
 
-      <button className="flex items-center gap-2 bg-primary-color text-color-white font-roboto text-sm md:text-lg px-4 py-2 rounded-full mt-10">
-        Submit
-        <FaArrowRight style={{ fontSize: "10px", fontWeight: "lighter" }} />
-      </button>
+      <div className="mt-4">
+        <button
+          type="submit"
+          className="bg-primary-color text-color-white px-4 py-2 text-sm md:text-lg rounded-full flex items-center gap-2"
+        >
+          Submit{" "}
+          <FaArrowRight style={{ fontSize: "10px", fontWeight: "lighter" }} />
+        </button>
+      </div>
     </form>
   );
 };

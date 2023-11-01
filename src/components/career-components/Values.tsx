@@ -4,11 +4,11 @@ import { v4 as uuidv4 } from "uuid";
 const Values = () => {
   return (
     <>
-      <div className="lg:flex w-full mx-auto flex-wrap space-y-4 md:gap-36 py-10">
+      <div className="lg:flex w-full mx-auto flex-wrap space-y-4 lg:gap-36 py-10">
         {ourValues.map((value) => (
           <div
             key={uuidv4()}
-            className="flex gap-4 rounded-lg bg-gradient-to-b from-gray-300 to-gray-100 py-4 pl-4 pr-8 md:w-1/4 justify-center items-center"
+            className="flex gap-4 rounded-lg bg-gradient-to-b from-gray-300 to-gray-100 py-4 pl-4 pr-8 lg:w-1/4 justify-center items-center"
           >
             <img
               src={value.image}

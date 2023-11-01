@@ -5,7 +5,7 @@ const CareerBottomSectionBottom = () => {
   return (
     <>
       <div
-        className="flex flex-col md:flex-row w-[90%] mx-auto gap-10 md:gap-48 py-6 md:py-16 items-center pb-60 md:pb-96"
+        className="flex flex-col md:flex-row w-full px-6 lg:px-20 gap-10 md:gap-48 py-6 md:py-16 items-center pb-60 md:pb-96"
         data-aos="fade-right"
       >
         <div className="w-full md:w-3/5 space-y-4 md:space-y-8">

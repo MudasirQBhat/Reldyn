@@ -1,7 +1,3 @@
-// import OurComponent from "./OurComponent";
-// import ourMissionImage from "../../assets/OurMissionImage.png";
-// import ourVisionImage from "../../assets/OurVisionImage.png";
-
 import OurComponent from "./OurComponent";
 import ourMissionImage from "../../assets/OurMissionImage.png";
 import ourVisionImage from "../../assets/OurVisionImage.png";
@@ -9,10 +5,9 @@ import ourVisionImage from "../../assets/OurVisionImage.png";
 const TopMiddleSection = () => {
   return (
     <div
-      className="flex flex-col lg:flex-row w-[90%]  mx-auto space-y-14 lg:space-y-0 lg:space-x-4"
+      className="flex flex-col lg:flex-row w-full px-6 lg:px-20 space-y-14 lg:space-y-0 lg:space-x-4"
       data-aos="fade-right"
     >
-      {/* Left column for large screens (lg) */}
       <div className="lg:w-3/5 bg-color-neutral-silver rounded-3xl lg:p-12">
         <OurComponent
           title="Our Mission"
@@ -22,7 +17,6 @@ const TopMiddleSection = () => {
         />
       </div>
 
-      {/* Right column for large screens (lg) */}
       <div className="lg:w-2/5 bg-color-light-pink rounded-3xl lg:p-12">
         <OurComponent
           title="Our Vision"

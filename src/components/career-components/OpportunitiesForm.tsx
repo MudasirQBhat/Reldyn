@@ -1,11 +1,6 @@
-import React from "react";
 import { useFormik } from "formik";
 
 const OpportunitiesForm = () => {
-  // Note that we have to initialize ALL of fields with values. These
-  // could come from props, but since we don’t want to prefill this form,
-  // we just use an empty string. If we don’t do this, React will yell
-  // at us.
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -67,9 +62,11 @@ const OpportunitiesForm = () => {
           />
         </div>
       </div>
-      <button className="bg-primary-color text-color-white font-roboto text-sm md:text-lg px-4 py-2 rounded-full mt-10">
-        Subscribe
-      </button>
+      <div className="mt-10">
+        <button className="bg-primary-color text-color-white font-roboto text-sm md:text-lg px-4 py-2 rounded-full">
+          Subscribe
+        </button>
+      </div>
     </form>
   );
 };

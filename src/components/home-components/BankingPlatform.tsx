@@ -6,7 +6,7 @@ const ParkingManagement = () => {
     <div className="bg-color-dark-silver">
       <div
         data-aos="fade-right"
-        className="flex flex-col justify-center items-center md:flex-row space-y-4 md:space-y-0 md:space-x-8 bg-color-dark-silver pb-16 w-[85%] max-w-screen-xl mx-auto"
+        className="flex flex-col pb-6 gap-0 md:flex-row items-center justify-between w-full px-6 lg:px-20 mx-auto md:gap-24"
       >
         <div className="pt-24 flex flex-col  md:items-start gap-4 md:text-left">
           <p className="text-color-darker-silver text-xl font-semibold font-roboto tracking-widest border-b-4  border-primary-color w-12 pb-2 ">

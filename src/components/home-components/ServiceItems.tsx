@@ -9,18 +9,21 @@ const ServiceItems = () => {
     <div>
       <Swiper
         spaceBetween={20}
-        scrollbar={{ draggable: true, hide: true }}
-        slidesPerView={1}
+        // scrollbar={{ draggable: false, hide: true }}
+        // slidesPerView={1}
         loop={true}
         pagination={false}
         breakpoints={{
           // When window width is >= 640px
           640: {
-            slidesPerView: 2,
+            slidesPerView: 1,
           },
           // When window width is >= 768px
           768: {
-            slidesPerView: 3,
+            slidesPerView: 1,
+          },
+          1024: {
+            slidesPerView: 2,
           },
         }}
       >

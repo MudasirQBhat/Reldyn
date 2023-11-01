@@ -18,7 +18,7 @@ const CareerReviews: React.FC<careerReviewsProps> = ({
   return (
     <>
       <div
-        className={`w-[90%] mx-auto py-10 gap-8 md:gap-48 items-center flex flex-col ${
+        className={`w-full px-6 lg:px-20 py-10 gap-8 md:gap-48 items-center flex flex-col ${
           isRowReverse ? "md:flex-row-reverse" : "md:flex-row"
         }`}
         data-aos="fade-right"

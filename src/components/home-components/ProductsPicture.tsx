@@ -9,7 +9,7 @@ const ProductsPicture = () => {
           backgroundImage: `url(${productsImage})`,
         }}
       >
-        <div className="w-[85%] mx-auto pt-24 text-left md:text-left">
+        <div className="w-full px-6 md:px-20 mx-auto pt-24 text-left md:text-left">
           <div>
             <p className="text-white text-xl font-semibold font-roboto tracking-widest border-b-4 border-primary-color w-24 pb-4">
               PRODUCTS

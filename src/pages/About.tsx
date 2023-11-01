@@ -18,6 +18,8 @@ const About = () => {
           heading5="with what we do"
           sectionImg={aboutTopSectionImage}
           description="We are your digital partners, dedicated to transforming businesses with innovative web solutions. Our passion is to bring your digital dreams to life with creativity and cutting-edge technology."
+          isServicesPage={false}
+          isAboutPage={true}
         />
         <MiddleSection />
         <DiverseExperience />

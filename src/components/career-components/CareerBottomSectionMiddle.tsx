@@ -4,7 +4,7 @@ const CareerBottomSectionMiddle = () => {
   return (
     <>
       <div
-        className="bg-primary-background w-[90%] mx-auto"
+        className="bg-primary-background w-full px-6 lg:px-20"
         data-aos="fade-right"
       >
         <h1 className="text-color-purple text-3xl font-black font-roboto">

@@ -2,7 +2,7 @@ import whatIsReldynImage from "../../assets/WhatisReldynImage.png";
 
 const Reldyn = () => {
   return (
-    <div className="w-[90%] mx-auto my-20 relative" data-aos="fade-right">
+    <div className="w-full px-6 lg:px-20 my-20 relative" data-aos="fade-right">
       <div className="lg:flex">
         <div className="lg:w-1/2 lg:h-96">
           <img

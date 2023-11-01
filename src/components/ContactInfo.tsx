@@ -1,7 +1,7 @@
 const ContactInfo = () => {
   return (
     <>
-      <div className="bg-gradient-to-t from-primary-color to-bottom-footer-background rounded-tl-3xl rounded-tr-3xl lg:rounded-tl-3xl lg:rounded-bl-3xl lg:rounded-tr-none text-color-white p-6 md:pl-36 md:pr-16 py-6 md:py-10 space-y-3 md:space-y-6">
+      <div className="bg-gradient-to-t from-primary-color to-bottom-footer-background rounded-tl-3xl rounded-tr-3xl lg:rounded-tl-3xl lg:rounded-bl-3xl lg:rounded-tr-none text-color-white p-6 lg:pl-36 lg:pr-16 py-6 lg:py-10 space-y-3 lg:space-y-6 w-full">
         <div>
           <h1
             data-aos="slide-right"

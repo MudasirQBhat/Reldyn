@@ -4,7 +4,7 @@ import TeamSlider from "./TeamSlider";
 const Team = () => {
   return (
     <>
-      <div className="pt-4 w-[90%] mx-auto" data-aos="fade-right">
+      <div className="pt-4 w-full px-6 lg:px-20 mx-auto" data-aos="fade-right">
         <div className="border-t-4 border-primary-color w-16 ml-2"></div>
         <p className="p-2 text-color-blackblue text-4xl md:text-6xl font-roboto font-bold line-20">
           Meet our team
@@ -16,7 +16,7 @@ const Team = () => {
           person to put out their best work.
         </p>
         <TeamSlider />
-        <div className="flex items-center mt-4">
+        <div className="flex flex-col md:flex-row md:items-center mt-4 space-y-2 md:space-y-0 ">
           <button className="px-6 py-4 flex justify-center items-center space-x-1 text-color-white bg-primary-color text-sm rounded-full">
             <p>Contact Us</p>
             <FaArrowRight className="text-xs font-thin mt-1" />

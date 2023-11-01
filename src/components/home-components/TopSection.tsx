@@ -6,7 +6,7 @@ const TopSection = () => {
   return (
     <div
       data-aos="fade-up"
-      className="flex flex-col md:flex-row bg-primary-background pb-6 w-full md:w-[90%] mx-auto space-y-6 md:space-y-0 md:space-x-12"
+      className="flex flex-col md:flex-row bg-primary-background pb-6 w-full space-y-6 md:space-y-0 md:gap-8 px-6 lg:px-20"
     >
       <div
         data-aos="fade-right"
@@ -16,9 +16,9 @@ const TopSection = () => {
           <KickStart />
           <ButtonTopSection />
         </div>
-        <div className="md:order-2">
-          <FrontImage />
-        </div>
+      </div>
+      <div className="md:order-2">
+        <FrontImage />
       </div>
     </div>
   );

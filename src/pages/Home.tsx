@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div className="bg-primary-background">
         <TopSection />
-        <hr className="w-[85%] mx-auto mt-4 text-line-color" />
+        <hr className="w-full px-20 mt-4 text-line-color" />
         <Partners />
       </div>
       <Services />

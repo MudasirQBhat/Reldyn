@@ -16,7 +16,7 @@ const FaqItem: React.FC<FaqItemProps> = ({ serial, question, answer }) => {
   };
 
   return (
-    <div className="shadow-sm shadow-color-gray-blue mb-4 lg:px-12">
+    <div className="shadow-sm shadow-color-gray-blue mb-4 px-6 lg:px-20 ">
       <div
         className="flex justify-between items-center p-4 cursor-pointer"
         onClick={toggleAnswer}

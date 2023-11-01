@@ -8,7 +8,7 @@ const Careers = () => {
       <div className="bg-gradient-to-b from-color-light-gray to-color-white">
         <div
           data-aos="fade-right"
-          className="flex flex-col pt-6 md:flex-row items-center justify-between w-[85%] mx-auto gap-24"
+          className="flex flex-col pt-6 md:flex-row items-center justify-between w-full px-6 lg:px-20 mx-auto gap-24"
         >
           <div className="mt-4 flex flex-col gap-4  md:text-left">
             <p className="text-color-darker-silver text-xl font-semibold font-roboto tracking-widest border-b-4 border-primary-color w-12 pb-2">

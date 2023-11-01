@@ -17,6 +17,7 @@ const Careers = () => {
         heading5=""
         sectionImg={careersTopSectionImage}
         description="Be a part of our growing family of professionals. We have offices across 4 continents see where you can join us!"
+        isServicesPage={false}
       />
       <CareerMiddleSection />
       <LifeAtReldyn />

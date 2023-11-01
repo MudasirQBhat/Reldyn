@@ -11,18 +11,20 @@ import linkedinLogo from "../../assets/LinkedInLogo.png";
 
 const CompanySlider = () => {
   const slidesPerView = {
-    // base: 1,
-    sm: 2,
-    md: 4,
+    sm: 1,
+    base: 2,
+    md: 3,
     lg: 4,
   };
 
   const getSlidesPerView = () => {
-    if (window.innerWidth >= 1024) {
+    if (window.innerWidth > 1024) {
       return slidesPerView.lg;
-    } else if (window.innerWidth >= 768) {
+    } else if (window.innerWidth > 768 && window.innerWidth <= 1024) {
       return slidesPerView.md;
-    } else if (window.innerWidth <= 767) {
+    } else if (window.innerWidth > 640 && window.innerWidth <= 768) {
+      return slidesPerView.base;
+    } else if (window.innerWidth <= 640) {
       return slidesPerView.sm;
     }
   };
