@@ -6,7 +6,7 @@ const TopSection = () => {
   return (
     <div
       data-aos="fade-up"
-      className="flex flex-col md:flex-row bg-primary-background pb-6 w-full space-y-6 md:space-y-0 md:gap-8 px-6 lg:px-20"
+      className="flex flex-col md:flex-row justify-between bg-primary-background pb-6 w-full space-y-6 md:space-y-0 md:gap-8 px-6 lg:px-20"
     >
       <div
         data-aos="fade-right"

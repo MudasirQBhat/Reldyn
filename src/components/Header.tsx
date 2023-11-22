@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <div className="p-4 flex justify-between items-center bg-color-white border-b border-line-color px-6 lg:px-20">
+    <div className="p-6 flex justify-between items-center bg-color-white border-b border-line-color px-6 lg:px-20">
       <NavLink to="/">
         {({ isActive }) => (
           <span
@@ -26,7 +26,7 @@ const Header = () => {
                 <img
                   src={reldynLogo}
                   alt="Reldyn Logo"
-                  className="w-24 md:w-40"
+                  className="w-24 md:w-32"
                 />
               </Link>
             </div>

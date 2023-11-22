@@ -19,7 +19,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={formik.handleSubmit}
-      className="bg-color-white px-8 py-8 rounded-3xl h-full"
+      className="bg-color-white px-8 py-8 rounded-b-0 md:rounded-3xl h-full"
     >
       <div>
         <h1 className="font-roboto text-color-purple font-black text-2xl md:text-3xl">
