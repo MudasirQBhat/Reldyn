@@ -1,8 +1,15 @@
 import ButtonTopSection from "./ButtonTopSection";
 import KickStart from "./KickStart";
 import FrontImage from "./FrontImage";
+import { useNavigate } from "react-router-dom";
 
 const TopSection = () => {
+  const navigate = useNavigate();
+  const handleContactUsOnClick = () => {
+    navigate("/contact");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div
       data-aos="fade-up"
@@ -14,7 +21,22 @@ const TopSection = () => {
       >
         <div className="md:order-1">
           <KickStart />
-          <ButtonTopSection />
+          <ButtonTopSection
+            buttons={[
+              {
+                label: "Contact Us",
+                onClick: handleContactUsOnClick,
+                primary: true,
+              },
+              {
+                label: "View Our Products",
+                onClick: () => {
+                  // Handle View Products action
+                },
+                primary: false,
+              },
+            ]}
+          />
         </div>
       </div>
       <div className="md:order-2">

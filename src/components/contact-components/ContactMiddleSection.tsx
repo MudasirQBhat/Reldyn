@@ -10,7 +10,7 @@ const ContactMiddleSection = () => {
           <div className="w-full  col-span-8 lg:col-span-8 relative lg-bottom-4 lg:-right-4 z-10 lg:-bottom-0">
             <ContactForm />
           </div>
-          <div className=" w-full  col-span-8 lg:col-span-4">
+          <div className=" w-full  col-span-8 lg:col-span-4 mb-28 md:mb-0">
             <div className="w-full relative">
               <img
                 src={contactFormImage1}
