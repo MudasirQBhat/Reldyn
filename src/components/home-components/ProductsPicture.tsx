@@ -4,7 +4,7 @@ const ProductsPicture = () => {
   return (
     <>
       <div
-        className="w-full h-[95vh] bg-cover bg-center relative"
+        className="w-full h-[95vh] bg-cover bg-center relative object-cover"
         style={{
           backgroundImage: `url(${productsImage})`,
         }}

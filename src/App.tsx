@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className=" overflow-hidden">
       <BrowserRouter>
         <Header />
         <RouterComponent />
@@ -30,7 +30,7 @@ function App() {
           <BottomFooter />
         </div>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

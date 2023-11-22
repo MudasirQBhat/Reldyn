@@ -13,7 +13,7 @@ const Card: React.FC<CardProps> = (props) => {
       data-aos="slide-up"
       className="card p-10 my-4 h-96 w-full rounded bg-color-white relative overflow-hidden flex flex-col"
     >
-      <h1 className="font-roboto font-bold text-3xl md:text-5xl font-600 text-color-blackblue p-2 pb-0 w-120">
+      <h1 className="font-roboto font-bold text-3xl md:text-5xl font-600 text-color-blackblue p-2 pb-0 ">
         {props.serviceTitle}
       </h1>
       <p className="font-inter text-lg text-color-black p-2 pt-1 flex-grow">
