@@ -42,7 +42,7 @@ const Team = () => {
             {
               label: "Our Services",
               onClick: () => {
-                // Handle View Products action
+                // Handle Our Services action
               },
               primary: false,
             },
