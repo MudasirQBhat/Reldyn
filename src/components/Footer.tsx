@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div data-aos="slide-up">
         <ContactComponent />
-        <div className=" items-end  bg-color-purple  pb-12 pt-80">
+        <div className=" items-end  bg-color-purple -mt-56 md:mt-0 pb-12 pt-80">
           <div className="flex flex-col lg:flex-row w-full px-6 lg:px-20 mx-auto lg:justify-between lg:mt-12 space-y-10 lg:space-y-0">
             <div
               // data-aos="slide-right"

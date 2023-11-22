@@ -1,7 +1,14 @@
-import { FaArrowRight } from "react-icons/fa";
 import TeamSlider from "./TeamSlider";
+import ButtonTopSection from "../home-components/ButtonTopSection";
+import { useNavigate } from "react-router-dom";
 
 const Team = () => {
+  const navigate = useNavigate();
+  const handleContactUsOnClick = () => {
+    navigate("/contact");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <div className="pt-4 w-full px-6 lg:px-20 mx-auto" data-aos="fade-right">
@@ -16,7 +23,7 @@ const Team = () => {
           person to put out their best work.
         </p>
         <TeamSlider />
-        <div className="flex flex-col md:flex-row md:items-center mt-4 space-y-2 md:space-y-0 ">
+        {/* <div className="flex flex-col md:flex-row md:items-center mt-4 space-y-2 md:space-y-0 ">
           <button className="px-6 py-4 flex justify-center items-center space-x-1 text-color-white bg-primary-color text-sm rounded-full">
             <p>Contact Us</p>
             <FaArrowRight className="text-xs font-thin mt-1" />
@@ -24,7 +31,23 @@ const Team = () => {
           <button className="px-6 py-3 ml-2 bg-color-white text-sm border-2 border-primary-color rounded-full text-primary-color font-inter font-light">
             Our Services
           </button>
-        </div>
+        </div> */}
+        <ButtonTopSection
+          buttons={[
+            {
+              label: "Contact Us",
+              onClick: handleContactUsOnClick,
+              primary: true,
+            },
+            {
+              label: "Our Services",
+              onClick: () => {
+                // Handle View Products action
+              },
+              primary: false,
+            },
+          ]}
+        />
       </div>
     </>
   );
