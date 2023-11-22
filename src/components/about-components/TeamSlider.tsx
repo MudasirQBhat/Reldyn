@@ -42,7 +42,7 @@ const CompanySlider = () => {
     >
       {teamMembers.map((member) => (
         <SwiperSlide key={uuidv4()} className="relative">
-          <img src={member.image} className="w-96 lg:h-96 rounded-2xl" />
+          <img src={member.image} className="lg:h-96 rounded-2xl" />
           <h1 className="font-roboto font-bold absolute bottom-10 left-4 text-color-white lg:bottom-16 text-1xl lg:text-2xl">
             {member.name}
           </h1>

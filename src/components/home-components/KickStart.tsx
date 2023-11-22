@@ -3,7 +3,7 @@ const KickStart = () => {
     <>
       <div className="bg-primary-background pt-16">
         <div className="border-t-4 border-primary-color w-16 ml-2"></div>
-        <p className="p-2 text-color-black text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-roboto font-light line-20">
+        <p className="p-2 text-color-black text-4xl md:text-5xl lg:text-5xl xl:text-7xl font-roboto font-light line-20">
           Kick-start
           <br />
           your

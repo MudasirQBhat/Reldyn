@@ -11,7 +11,7 @@ const Card: React.FC<CardProps> = (props) => {
   return (
     <div
       data-aos="slide-up"
-      className="card p-4 my-4 h-96 w-full rounded bg-color-white relative overflow-hidden flex flex-col"
+      className="card p-10 my-4 h-96 w-full rounded bg-color-white relative overflow-hidden flex flex-col"
     >
       <h1 className="font-roboto text-3xl md:text-5xl font-600 text-color-blackblue p-2 pb-0">
         {props.serviceTitle}
