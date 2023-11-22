@@ -25,7 +25,7 @@ const BoostBusiness = () => {
           <div>
             <button className="px-10 py-4 mt-2 flex justify-center items-center space-x-2 bg-primary-color text-color-white text-sm rounded-full">
               <p>Contact Us</p>
-              <FaArrowRight className="text-xs font-thin mt-1" />
+              <FaArrowRight className="text-xs font-thin" />
             </button>
           </div>
         </div>
