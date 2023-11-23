@@ -20,7 +20,7 @@ const ContactMiddleSection = () => {
               <h1 className=" font-roboto text-primary-color font-font-700 text-1xl lg:text-2xl absolute top-20 left-4 lg:top-36 lg:left-12">
                 Malaysia
               </h1>
-              <p className="font-roboto text-sm lg:text-base absolute  top-28 left-4 w-72 lg:w-72 lg:top-44 lg:left-12 text-color-natural-black">
+              <p className="font-roboto text-sm lg:text-base absolute  top-28 left-4 sm:w-60 md:w-72 lg:w-72 lg:top-44 lg:left-12 text-color-natural-black">
                 Suite Prague Centrepoint South, Penthouse Level 27, Lingkaran
                 Syed Putra, Mid Valley City, 58000 Kuala Lumpur
               </p>
@@ -34,7 +34,7 @@ const ContactMiddleSection = () => {
               <h1 className=" font-roboto text-primary-color font-font-700 text-1xl lg:text-2xl absolute top-20 left-4 lg:top-36 lg:left-12">
                 India
               </h1>
-              <p className="font-roboto text-sm lg:text-base absolute top-28 left-4 w-72 lg:w-72 lg:top-48 lg:left-12 text-color-natural-black">
+              <p className="font-roboto text-sm lg:text-base absolute top-28 left-4 sm:w-60 md:w-72 lg:w-72 lg:top-48 lg:left-12 text-color-natural-black">
                 Unit-629, 6th floor, Vascon Almonte IT Park, Rakshak Nagar,
                 Kharadi, Pune - 411014
               </p>
