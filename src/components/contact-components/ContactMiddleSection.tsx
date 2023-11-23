@@ -15,7 +15,7 @@ const ContactMiddleSection = () => {
               <img
                 src={contactFormImage1}
                 alt="Malaysia Contact Image"
-                className="lg:rounded-t-3xl w-full md:h-full"
+                className="xl:rounded-t-3xl w-full md:h-full"
               />
               <h1 className=" font-roboto text-primary-color font-font-700 text-1xl lg:text-2xl absolute top-20 left-4 lg:top-36 lg:left-12">
                 Malaysia
