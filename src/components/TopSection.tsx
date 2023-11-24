@@ -28,7 +28,7 @@ const TopSection: React.FC<TopSectionProps> = ({
     <div className="bg-primary-background">
       <div
         data-aos="fade-right"
-        className="flex flex-col pb-6 gap-0 md:flex-row items-center justify-between w-full px-6 lg:px-20 md:gap-32 lg:gap-48"
+        className="flex flex-col pb-6 gap-0 md:flex-row items-center justify-between 2xl:justify-around w-full px-6 lg:px-20 md:gap-32 lg:gap-48"
       >
         <div className="pt-16 flex flex-col  md:items-start gap-4 md:text-left">
           <p className="text-color-darker-silver text-xl font-semibold font-roboto tracking-widest border-b-4  border-primary-color w-28 pb-2">
