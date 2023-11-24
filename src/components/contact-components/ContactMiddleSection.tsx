@@ -9,7 +9,7 @@ const ContactMiddleSection = () => {
         className="bg-primary-background text-center  "
         data-aos="fade-right"
       >
-        <div className="grid grid-cols-8 lg:grid-cols-8 mx-auto w-full 2xl:w-10/12  px-6 lg:px-20 py-20 pb-80">
+        <div className="grid grid-cols-8 lg:grid-cols-8 mx-auto w-full   px-6 lg:px-20 py-20 pb-80">
           <div className="w-full col-span-8  xl:col-span-4 relative lg-bottom-4 lg:-right-0 z-10 lg:-bottom-0 xl:translate-x-6">
             <ContactForm />
           </div>
