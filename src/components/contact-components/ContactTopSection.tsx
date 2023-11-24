@@ -4,10 +4,10 @@ const ContactTopSection = () => {
   return (
     <>
       <div className="bg-primary-background" data-aos="fade-right">
-        <div className="w-full px-6 lg:px-20 flex flex-col justify-between 2xl:justify-around items-center lg:flex-row">
+        <div className="w-full px-6 lg:px-20 flex flex-col justify-between items-center lg:flex-row 2xl:justify-around">
           <div className="pt-16 space-y-8">
             <div className="space-y-4">
-              <p className=" text-primary-color  text-4xl md:text-6xl lg:text-8xl font-roboto font-black line-20">
+              <p className=" text-primary-color  text-4xl md:text-6xl lg:text-6xl xl:text-7xl font-roboto font-black line-20">
                 Contact Us
               </p>
 

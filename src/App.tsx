@@ -8,6 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BottomFooter from "./components/BottomFooter";
+import ScrollToTop from "./hooks/ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className=" overflow-hidden">
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <RouterComponent />
         <div>

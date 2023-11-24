@@ -43,13 +43,22 @@ const Footer = () => {
                   <h5 className="text-xl font-600 text-color-white">Pages</h5>
                 </div>
                 <div className="flex flex-col">
-                  <Link to="#" className="text-color-neutral-silver text-sm">
+                  <Link
+                    to="/about"
+                    className="text-color-neutral-silver text-sm"
+                  >
                     About Us
                   </Link>
-                  <Link to="#" className="text-color-neutral-silver text-sm">
+                  <Link
+                    to="/services"
+                    className="text-color-neutral-silver text-sm"
+                  >
                     Services
                   </Link>
-                  <Link to="#" className="text-color-neutral-silver text-sm">
+                  <Link
+                    to="/contact"
+                    className="text-color-neutral-silver text-sm"
+                  >
                     Contact Us
                   </Link>
                 </div>
