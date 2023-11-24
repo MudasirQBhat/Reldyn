@@ -19,18 +19,18 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={formik.handleSubmit}
-      className="bg-color-white px-8 py-8 rounded-b-0 md:rounded-3xl h-full"
+      className="bg-color-white px-8 py-8 rounded-b-0 xl:rounded-3xl h-full 2xl:py-40"
     >
       <div>
         <h1 className="font-roboto text-color-purple font-black text-2xl md:text-3xl">
           Send us a message
         </h1>
       </div>
-      <div className="flex flex-col md:flex-row md:gap-8">
+      <div className="flex flex-col md:flex-row md:gap-8 ">
         <div className="flex flex-col md:w-1/2">
           <label
             htmlFor="firstName"
-            className="font-roboto text-color-natural-gray mt-4"
+            className="font-roboto text-color-natural-gray mt-4 text-left 2xl:text-2xl"
           >
             First Name
           </label>
@@ -47,7 +47,7 @@ const ContactForm = () => {
         <div className="flex flex-col md:w-1/2">
           <label
             htmlFor="lastName"
-            className="font-roboto text-color-natural-gray mt-4"
+            className="font-roboto text-color-natural-gray mt-4 text-left  2xl:text-2xl"
           >
             Last Name
           </label>
@@ -66,7 +66,7 @@ const ContactForm = () => {
         <div className="flex flex-col md:w-1/2">
           <label
             htmlFor="email"
-            className="font-roboto text-color-natural-gray mt-4"
+            className="font-roboto text-color-natural-gray mt-4 text-left  2xl:text-2xl"
           >
             Email
           </label>
@@ -83,7 +83,7 @@ const ContactForm = () => {
         <div className="flex flex-col md:w-1/2">
           <label
             htmlFor="phoneNumber"
-            className="font-roboto text-color-natural-gray mt-4"
+            className="font-roboto text-color-natural-gray mt-4 text-left  2xl:text-2xl"
           >
             Phone Number
           </label>
@@ -99,7 +99,7 @@ const ContactForm = () => {
       </div>
 
       <div className="flex flex-col">
-        <p className="font-roboto text-color-natural-gray mt-4">
+        <p className="font-roboto text-color-natural-gray mt-4 text-left 2xl:text-2xl">
           Select Subject
         </p>
         <div className="flex flex-col md:flex-row md:items-center mt-2 space-y-4 md:space-y-0">
@@ -115,7 +115,7 @@ const ContactForm = () => {
             />
             <label
               htmlFor="subject1"
-              className="font-roboto text-color-purple font-light ml-2 mr-4"
+              className="font-roboto text-color-purple font-light ml-2 mr-4  "
             >
               Subject 1
             </label>
@@ -180,7 +180,7 @@ const ContactForm = () => {
       <div className="flex flex-col md:w-full">
         <label
           htmlFor="message"
-          className="font-roboto text-color-natural-gray mt-4"
+          className="font-roboto text-color-natural-gray mt-4 text-left 2xl:text-2xl"
         >
           Message
         </label>
@@ -197,7 +197,7 @@ const ContactForm = () => {
       <div className="mt-4">
         <button
           type="submit"
-          className="bg-primary-color text-color-white px-4 py-2 text-sm md:text-lg rounded-full flex items-center gap-2"
+          className="bg-primary-color text-color-white px-4 py-2 text-sm md:text-lg rounded-full flex items-center gap-2 2xl:px-8 2xl:py-4"
         >
           Submit{" "}
           <FaArrowRight style={{ fontSize: "10px", fontWeight: "lighter" }} />

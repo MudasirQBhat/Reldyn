@@ -6,7 +6,7 @@ const BoostBusiness = () => {
     <div className="bg-color-dark-silver pb-16 mt-4 md:mt-2 lg:mt-0">
       <div
         data-aos="fade-right"
-        className="flex flex-col pb-6 gap-0 md:flex-row items-center justify-between w-full px-6 lg:px-20 xl:gap-96"
+        className="flex flex-col pb-6 gap-0 md:flex-row items-center justify-between 2xl:justify-around w-full px-6 lg:px-20 xl:gap-96"
       >
         <div className="pt-24 flex flex-col  md:items-start gap-4 md:text-left">
           <div>
@@ -25,7 +25,7 @@ const BoostBusiness = () => {
           <div>
             <button className="px-10 py-4 mt-2 flex justify-center items-center space-x-2 bg-primary-color text-color-white text-sm rounded-full">
               <p>Contact Us</p>
-              <FaArrowRight className="text-xs font-thin mt-1" />
+              <FaArrowRight className="text-xs font-thin" />
             </button>
           </div>
         </div>

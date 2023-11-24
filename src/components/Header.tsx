@@ -136,7 +136,7 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden fixed top-4 left-0 w-screen h-screen bg-color-white z-10 flex flex-col items-center justify-center">
+        <div className="md:hidden fixed top-4 left-0 w-screen h-screen bg-color-white z-10 flex flex-col justify-center items-center">
           <FaTimes
             onClick={toggleMenu}
             className="text-primary-color absolute top-4 right-4"

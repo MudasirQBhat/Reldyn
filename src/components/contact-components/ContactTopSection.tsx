@@ -4,7 +4,7 @@ const ContactTopSection = () => {
   return (
     <>
       <div className="bg-primary-background" data-aos="fade-right">
-        <div className="w-full px-6 lg:px-20 flex flex-col justify-between lg:flex-row lg:gap-60">
+        <div className="w-full px-6 lg:px-20 flex flex-col justify-between 2xl:justify-around items-center lg:flex-row">
           <div className="pt-16 space-y-8">
             <div className="space-y-4">
               <p className=" text-primary-color  text-4xl md:text-6xl lg:text-8xl font-roboto font-black line-20">
